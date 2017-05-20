@@ -1,7 +1,7 @@
 
-Codebook for tidydata.csv
+Codebook for output.txt
 
-The tidydata.csv contains a set of means for each mean and standard deviation variable found in the source data set.
+The output.txt file contains a set of means for each mean and standard deviation variable found in the source data set.
 
 The data is laid out with each row corresponding to a combination of subject and acitivity, and then each column containing the average of the data in the original data sets for that subject / activity combination.
 
