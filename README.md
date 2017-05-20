@@ -10,6 +10,6 @@ This repository contains the following
 
 -tidydata.csv. This is the CSV output file to fulfill the requirements of the assingment
 
--Codebook.MD. This is a file containing more information relating to the data set including column names & desrcriptors, how the data is laid out, and the 
+-Codebook.MD. This is a file containing more information relating to the data set including column names & desrcriptors, how the data is laid out, the steps to create the data set in question, and some additional information sourced from the original read-me files. 
 
 -run_analysis.R. This is the R script used to download & extract the data, import the relevant tables into R, and then merge / summarise the data as needed.
