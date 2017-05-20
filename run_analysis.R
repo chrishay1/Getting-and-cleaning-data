@@ -6,10 +6,11 @@
 ##The file then filters down to the variables in question that we are interested in,
 ##renames the variables into something more user-friendly and then outputs a CSV file.
 
+##download the data and extract it. This step has been commmented out but can be added if needed
 
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile="~/a1.zip")
+##download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile="~/a1.zip")
 
-unzip("a1.zip")
+##unzip("a1.zip")
 
 ##read in the "features" data set and transpose it. These will be used as the 
 ##column names for the x_train and y_train data sets
@@ -62,4 +63,4 @@ colnames(summary) <- gsub("\\(","",colnames(summary))
 colnames(summary) <- gsub("\\)","",colnames(summary))
 colnames(summary) <- gsub("\\-","",colnames(summary))
 ##create a csv output file
-write.table(summary,"./output.txt")
+write.table(summary,"./output.txt",row.names=FALSE)
