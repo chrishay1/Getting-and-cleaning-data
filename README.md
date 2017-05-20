@@ -8,7 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This repository contains the following
 
--output.txt. This is the output file to fulfill the requirements of the assingment
+-output.txt. This is the output file to fulfill the requirements of the assignment.
 
 -Codebook.MD. This is a file containing more information relating to the data set including column names & desrcriptors, how the data is laid out, the steps to create the data set in question, and some additional information sourced from the original read-me files. 
 
