@@ -1,5 +1,5 @@
 
-##Codebook for tidydata.csv
+#Codebook for tidydata.csv
 
 The tidydata.csv contains a set of means for each mean and standard deviation variable found in the source data set.
 
