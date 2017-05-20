@@ -8,6 +8,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This repository contains the following
 
--tidydata.csv. This is the CSV output file to fulfill the requirements of the 
--Codebook.MD. This is a file containing more information relating to the data set. 
+-tidydata.csv. This is the CSV output file to fulfill the requirements of the assingment
+
+-Codebook.MD. This is a file containing more information relating to the data set including column names & desrcriptors, how the data is laid out, and the 
+
 -run_analysis.R. This is the R script used to download & extract the data, import the relevant tables into R, and then merge / summarise the data as needed.
